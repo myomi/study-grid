@@ -1,0 +1,19 @@
+{
+  "name": "study-grid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/myomi/study-grid",
+  "author": "myomi <myomit@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel study01/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.14.3",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0"
+  }
+}
