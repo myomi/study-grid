@@ -1,0 +1,24 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.week {
+  display: block;
+  text-align: center;
+  border: 0.5px dotted #ccc;
+}
+
+.week-header {
+  background-color: #eee;
+}
+.week0 {
+  background-color: #c88;
+}
+.week6 {
+  background-color: #55c;
+}
+.now {
+  background-color: palevioletred;
+}
